@@ -9,9 +9,9 @@ export class ZoomRangePageComponent implements AfterViewInit, OnDestroy {
 
   @ViewChild('map') divMap?: ElementRef;
 
-  public zoom: number = 6.5;
+  public zoom: number = 7.5;
   public map?: Map;
-  public currentLngLat: LngLat = new LngLat(-100.05, 19.91);
+  public currentLngLat: LngLat = new LngLat(-99.4071, 19.2579);
 
   ngAfterViewInit(): void {
 
